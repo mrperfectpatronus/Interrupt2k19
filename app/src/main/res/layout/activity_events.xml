@@ -5,23 +5,23 @@
     android:id="@+id/bgrl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fontcolor"
     tools:context=".Events">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="5dp">
+        android:layout_height="match_parent">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/bgcolor">
+            android:background="@color/fontcolor">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/fgrl">
+                android:id="@+id/fgrl"
+                android:layout_margin="5dp"
+                android:background="@color/bgcolor">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="210dp"
@@ -40,10 +40,9 @@
                     android:fontFamily="@font/press_start_2p"
                     android:padding="5dp"
                     android:text="HELLO"
-                    android:textColor="@color/fontcolor2"
+                    android:textColor="#27C3EA"
                     android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:textStyle="italic" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -55,8 +54,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
-                    android:textStyle="italic"
-                    android:fontFamily="@font/source_code_pro_semibold"
+                    android:fontFamily="@font/coder"
                     android:textAlignment="center"
                     android:text="DESCRIPTION"/>
 
@@ -70,9 +68,9 @@
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
-                    android:textStyle="italic"
-                    android:fontFamily="@font/marvel"
-                    android:textAlignment="center"
+                    android:fontFamily="@font/coder"
+                    android:gravity="center_vertical|start"
+                    android:lineSpacingExtra="10dp"
                     android:text=".\n.\n.\n.\n."/>
 
                 <TextView
@@ -85,8 +83,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
-                    android:textStyle="italic"
-                    android:fontFamily="@font/source_code_pro_semibold"
+                    android:fontFamily="@font/coder"
                     android:textAlignment="center"
                     android:text="RULES"/>
 
@@ -98,11 +95,11 @@
                     android:textSize="30sp"
                     android:textColor="@color/fontcolor"
                     android:layout_marginTop="20dp"
+                    android:lineSpacingExtra="10dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
-                    android:textStyle="italic"
-                    android:fontFamily="@font/marvel"
-                    android:textAlignment="center"
+                    android:fontFamily="@font/coder"
+                    android:textAlignment="textStart"
                     android:text=".\n.\n.\n.\n."/>
 
                 <TextView
@@ -115,8 +112,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
-                    android:textStyle="italic"
-                    android:fontFamily="@font/source_code_pro_semibold"
+                    android:fontFamily="@font/coder"
                     android:textAlignment="center"
                     android:text="CONTACT US"/>
 
@@ -126,30 +122,16 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/contti"
                     android:textSize="30sp"
+                    android:lineSpacingExtra="10dp"
                     android:textColor="@color/fontcolor"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
-                    android:textStyle="italic"
                     android:textAlignment="center"
-                    android:fontFamily="@font/marvel"
+                    android:fontFamily="@font/coder"
                     android:text=".\n.\n.\n.\n."/>
 
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/regbut"
-                    android:fontFamily="@font/source_code_pro_semibold"
-                    android:text="REGISTER"
-                    android:padding="5dp"
-                    android:textColor="@color/fontcolor"
-                    android:background="@color/fontcolor1"
-                    android:layout_margin="30dp"
-                    android:textStyle="italic"
-                    android:layout_centerHorizontal="true"
-                    android:layout_below="@+id/contact"
-                    android:textSize="20sp"/>
 
             </RelativeLayout>
 

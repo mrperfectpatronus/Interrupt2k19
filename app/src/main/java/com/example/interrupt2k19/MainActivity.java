@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         img1=(ImageView) findViewById(R.id.img1);
-        Glide.with(this).load(R.drawable.bgb).into(img1);
+        Glide.with(this).load(R.drawable.bg1).into(img1);
         btn1=(ImageButton)findViewById(R.id.btn1);
         btn2=(ImageButton)findViewById(R.id.btn2);
         btn3=(ImageButton)findViewById(R.id.btn3);
