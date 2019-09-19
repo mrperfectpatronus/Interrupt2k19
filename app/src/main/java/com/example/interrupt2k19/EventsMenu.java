@@ -11,7 +11,7 @@ import android.widget.Button;
 public class EventsMenu extends AppCompatActivity implements View.OnClickListener {
 
     Button b1, b2, b3, b4, b5;
-    CardView c1, c2, c3, c4, c5;
+    CardView c1, c2, c3, c4, c5, c6, c7, c8, c9, c10;
     Events e;
 
     @Override
@@ -24,6 +24,11 @@ public class EventsMenu extends AppCompatActivity implements View.OnClickListene
         c3 = (CardView) findViewById(R.id.card3);
         c4 = (CardView) findViewById(R.id.card4);
         c5 = (CardView) findViewById(R.id.card5);
+        c6 = (CardView) findViewById(R.id.card6);
+        c7 = (CardView) findViewById(R.id.card7);
+        c8 = (CardView) findViewById(R.id.card8);
+        c9 = (CardView) findViewById(R.id.card9);
+        c10 = (CardView) findViewById(R.id.card10);
 
 //        b1 = (Button)findViewById(R.id.b1);
 //        b2 = (Button)findViewById(R.id.b2);
@@ -34,6 +39,15 @@ public class EventsMenu extends AppCompatActivity implements View.OnClickListene
         e = new Events();
 
         c1.setOnClickListener(this);
+        c2.setOnClickListener(this);
+        c3.setOnClickListener(this);
+        c4.setOnClickListener(this);
+        c5.setOnClickListener(this);
+        c6.setOnClickListener(this);
+        c7.setOnClickListener(this);
+        c8.setOnClickListener(this);
+        c9.setOnClickListener(this);
+        c10.setOnClickListener(this);
 
 //        b1.setOnClickListener(this);
 //        b2.setOnClickListener(this);
@@ -60,6 +74,21 @@ public class EventsMenu extends AppCompatActivity implements View.OnClickListene
             startActivity(new Intent(EventsMenu.this, Events.class));
         }else if(v == c5){
             e.Eventid(5);
+            startActivity(new Intent(EventsMenu.this, Events.class));
+        }else if(v == c6){
+            e.Eventid(6);
+            startActivity(new Intent(EventsMenu.this, Events.class));
+        }else if(v == c7){
+            e.Eventid(7);
+            startActivity(new Intent(EventsMenu.this, Events.class));
+        }else if(v == c8){
+            e.Eventid(8);
+            startActivity(new Intent(EventsMenu.this, Events.class));
+        }else if(v == c9){
+            e.Eventid(9);
+            startActivity(new Intent(EventsMenu.this, Events.class));
+        }else if(v == c10){
+            e.Eventid(10);
             startActivity(new Intent(EventsMenu.this, Events.class));
         }
 

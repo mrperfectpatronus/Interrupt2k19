@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/fontcolor">
 <!--    app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
 <!--    -->
 <!--    tools:showIn="@layout/activity_scrolling">-->
@@ -12,7 +13,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="10dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="@color/bgcolor"
+        android:layout_margin="5dp">
 
         <RelativeLayout
             android:id="@+id/r1"
@@ -43,7 +46,7 @@
                         android:layout_marginLeft="20dp"
                         android:id="@+id/img"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/ic_developer_mode_black_24dp"
+                        android:src="@drawable/paperpresentation"
                         android:padding="0dp"/>
 
                     <TextView
@@ -54,8 +57,8 @@
                         android:paddingTop="20dp"
                         android:layout_below="@+id/img"
                         android:layout_centerHorizontal="true"
-                        android:text="EVENT NAME"
-                        android:textColor="#ffffff"/>
+                        android:text="PRESENTATION NATION"
+                        android:textColor="@color/fontcolor1"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -63,7 +66,7 @@
                         android:layout_below="@+id/eventTitle"
                         android:layout_centerHorizontal="true"
                         android:text="Event Description"
-                        android:textColor="#ffffff"/>
+                        android:textColor="@color/fontcolor"/>
 
                 </RelativeLayout>
 
@@ -103,7 +106,7 @@
                             android:layout_marginLeft="20dp"
                             android:id="@+id/img2"
                             android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_developer_mode_black_24dp"
+                            android:src="@drawable/postercoaster"
                             android:padding="0dp"/>
 
                         <TextView
@@ -114,8 +117,8 @@
                             android:paddingTop="20dp"
                             android:layout_below="@+id/img2"
                             android:layout_centerHorizontal="true"
-                            android:text="EVENT NAME"
-                            android:textColor="#ffffff"/>
+                            android:text="POSTER PRESENTATION"
+                            android:textColor="@color/fontcolor1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -123,7 +126,7 @@
                             android:layout_below="@+id/eventTitle2"
                             android:layout_centerHorizontal="true"
                             android:text="EVENT DESCRIPTIOM"
-                            android:textColor="#ffffff"/>
+                            android:textColor="@color/fontcolor"/>
 
                     </RelativeLayout>
 
@@ -163,7 +166,7 @@
                             android:layout_marginLeft="20dp"
                             android:id="@+id/img3"
                             android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_developer_mode_black_24dp"
+                            android:src="@drawable/mindspark"
                             android:padding="0dp"/>
 
                         <TextView
@@ -174,8 +177,8 @@
                             android:paddingTop="20dp"
                             android:layout_below="@+id/img3"
                             android:layout_centerHorizontal="true"
-                            android:text="EVENT NAME"
-                            android:textColor="#ffffff"/>
+                            android:text="MINDSPAR"
+                            android:textColor="@color/fontcolor1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -183,7 +186,7 @@
                             android:layout_below="@+id/eventTitle3"
                             android:layout_centerHorizontal="true"
                             android:text="Event Description"
-                            android:textColor="#ffffff"/>
+                            android:textColor="@color/fontcolor"/>
 
                     </RelativeLayout>
 
@@ -223,7 +226,7 @@
                             android:layout_marginLeft="20dp"
                             android:id="@+id/img4"
                             android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_developer_mode_black_24dp"
+                            android:src="@drawable/game_of_tags"
                             android:padding="0dp"/>
 
                         <TextView
@@ -234,8 +237,8 @@
                             android:paddingTop="20dp"
                             android:layout_below="@+id/img4"
                             android:layout_centerHorizontal="true"
-                            android:text="EVENT NAME"
-                            android:textColor="#ffffff"/>
+                            android:text="GAME OF \u003cTAGS\u003e"
+                            android:textColor="@color/fontcolor1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -243,7 +246,7 @@
                             android:layout_below="@+id/eventTitle4"
                             android:layout_centerHorizontal="true"
                             android:text="Event Description"
-                            android:textColor="#ffffff"/>
+                            android:textColor="@color/fontcolor"/>
 
                     </RelativeLayout>
 
@@ -283,7 +286,7 @@
                         android:layout_marginLeft="20dp"
                         android:id="@+id/img5"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/ic_developer_mode_black_24dp"
+                        android:src="@drawable/now_u_c_me"
                         android:padding="0dp"/>
 
                     <TextView
@@ -294,8 +297,8 @@
                         android:paddingTop="20dp"
                         android:layout_below="@+id/img5"
                         android:layout_centerHorizontal="true"
-                        android:text="EVENT NAME"
-                        android:textColor="#ffffff"/>
+                        android:text="NOW YOU C ME"
+                        android:textColor="@color/fontcolor1"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -303,7 +306,7 @@
                         android:layout_below="@+id/eventTitle5"
                         android:layout_centerHorizontal="true"
                         android:text="Event Description"
-                        android:textColor="#ffffff"/>
+                        android:textColor="@color/fontcolor"/>
 
                 </RelativeLayout>
 
@@ -343,7 +346,7 @@
                         android:layout_marginLeft="20dp"
                         android:id="@+id/img6"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/ic_developer_mode_black_24dp"
+                        android:src="@drawable/stackmarket"
                         android:padding="0dp"/>
 
                         <TextView
@@ -354,8 +357,8 @@
                         android:paddingTop="20dp"
                         android:layout_below="@+id/img6"
                         android:layout_centerHorizontal="true"
-                        android:text="EVENT NAME"
-                        android:textColor="#ffffff"/>
+                        android:text="STACK MARKET"
+                        android:textColor="@color/fontcolor1"/>
 
                         <TextView
                         android:layout_width="wrap_content"
@@ -363,7 +366,7 @@
                         android:layout_below="@+id/eventTitle6"
                         android:layout_centerHorizontal="true"
                         android:text="Event Description"
-                        android:textColor="#ffffff"/>
+                        android:textColor="@color/fontcolor"/>
 
                 </RelativeLayout>
 
@@ -371,14 +374,14 @@
 
         </RelativeLayout>
 
-            <RelativeLayout
-                android:id="@+id/r7"
-                android:clipToPadding="false"
-                android:gravity="center"
-                android:layout_below="@+id/r6"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/r7"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:layout_below="@+id/r6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <androidx.cardview.widget.CardView
                 android:foreground="?android:attr/selectableItemBackground"
@@ -403,7 +406,7 @@
                         android:layout_marginLeft="20dp"
                         android:id="@+id/img7"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/ic_developer_mode_black_24dp"
+                        android:src="@drawable/code_con"
                         android:padding="0dp"/>
 
                     <TextView
@@ -414,13 +417,193 @@
                         android:paddingTop="20dp"
                         android:layout_below="@+id/img7"
                         android:layout_centerHorizontal="true"
+                        android:text="CODE CONNOISSEUR"
+                        android:textColor="@color/fontcolor1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventTitle7"
+                        android:layout_centerHorizontal="true"
+                        android:text="Event Description"
+                        android:textColor="@color/fontcolor"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r8"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:layout_below="@+id/r7"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:background="@drawable/blackgrad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/img8"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/interrupt"
+                        android:padding="0dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/eventTitle8"
+                        android:paddingTop="20dp"
+                        android:layout_below="@+id/img8"
+                        android:layout_centerHorizontal="true"
+                        android:text="INTERRUPT CHALLENGE V2.0"
+                        android:textColor="@color/fontcolor1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventTitle8"
+                        android:layout_centerHorizontal="true"
+                        android:text="Event Description"
+                        android:textColor="@color/fontcolor"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r9"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:layout_below="@+id/r8"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:background="@drawable/blackgrad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/img9"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/alt_tech_tab"
+                        android:padding="0dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/eventTitle9"
+                        android:paddingTop="20dp"
+                        android:layout_below="@+id/img9"
+                        android:layout_centerHorizontal="true"
+                        android:text="ALT + TAB + TECH"
+                        android:textColor="@color/fontcolor1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventTitle9"
+                        android:layout_centerHorizontal="true"
+                        android:text="Event Description"
+                        android:textColor="@color/fontcolor"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r10"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:layout_below="@+id/r9"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:background="@drawable/blackgrad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/img10"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_developer_mode_black_24dp"
+                        android:padding="0dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/eventTitle10"
+                        android:paddingTop="20dp"
+                        android:layout_below="@+id/img10"
+                        android:layout_centerHorizontal="true"
                         android:text="EVENT NAME"
                         android:textColor="#ffffff"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/eventTitle7"
+                        android:layout_below="@+id/eventTitle10"
                         android:layout_centerHorizontal="true"
                         android:text="Event Description"
                         android:textColor="#ffffff"/>

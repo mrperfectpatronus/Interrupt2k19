@@ -1,4 +1,171 @@
 <resources>
     <string name="app_name">Interrupt2k19</string>
     <string name="title_activity_maps">Map</string>
+    <string name="sympo">Interrupt 2019 is a National Level Technical Symposium conducted by Computer Science Department of Sri Venkateswara College of Engineering.</string>
+    <string name="why">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+    <string name="e1des">This is where your ideas come to life. \n Interrupt\'19 is proud to present you Presentation Nation,
+        a platform where you get to showcase your innovative skills and research. Pen down your most creative ideas,
+        submit a paper and give an intriguing presentation on it. Impress, inspire and you\'ll stand a chance to grab the prize! \n
+
+\nTopics: \n
+•Internet of things \n
+•Cloud Security and privacy \n
+•Virtualization \n
+•HPC on Cloud \n
+•Honeypot \n
+•Wireless communication System \n
+•Bluetooth Technology \n
+•Data Management and Sensor Networks \n
+•Speech signal Analysis by signal processing \n
+•Data Security using Neural Networks \n
+•Big Data analytics \n
+•MapReduce \n
+•Big Data search and mining \n
+•Big Data security and privacy
+</string>
+    <string name="e1rul">
+•Team of 3 \n
+•The presentation time for each team will be 15 minutes.\n
+•Judgement criteria will be based on presentation, innnovation and technicality involved in the project.\n
+•The papers should be in IEEE format.\n
+•Participants should bring their paper in PDF or Word format in pendrive.\n
+•Jury\'s decision is final.
+</string>
+    <string name="e1con">Ajay Saba - 9488821895</string>
+
+
+    <string name="e2des">Poster coaster,a poster presentation event
+        which aids the participants to rattle their brains and untie their ideas.Here is the chance to bring
+        out the power of the days you spent
+        pondering over mind boggling ideas.So unveil your innovative minds and be one among many to show the talent you posses.
+</string>
+    <string name="e2rul">
+•Team of 2.\n
+•Presentation time for each team is 10 minutes.\n
+•The judgement criteria will be based on originality, creativity and clarity.\n
+•Participants should bring the poster in pdf/jpg/png format in pendrive.\n
+•Jury\'s decision will be final.
+
+</string>
+    <string name="e2con">Sumneeth – 9786691724</string>
+
+    <string name="e3des">Are you an intellect ready for sparring with your opponent at a game of words?
+        Here\'s the perfect opportunity to bring out the orator in you!Talk your way through and impress the panel
+        with your technical and oratory skills!Hurry up and register to showcase your technical +rhetorical skills for
+        the world to see!\n
+        The topics for the event will be given on the spot.
+
+</string>
+    <string name="e3rul">
+•Individual participation only.\n
+•Time limit should not be exceeded.\n
+•Decorum should be maintained.\n
+•Judgement criteria will be based on presentation, technical points and coherence.\n
+•Jury\’s decision will be final.\n
+
+
+</string>
+    <string name="e3con">Anan - 9884613747\nVaishali - 8825579092
+</string>
+
+    <string name="e4des">For those who love front-end, here is a chance to showcase your talent.
+        We bring you, the Game of \u003c tags \u003e. Parade your web design skills at this fun event!
+        Design the most attractive website using UX/UI and make even Charlotte envy your web!
+
+</string>
+    <string name="e4rul">
+•Team of either 1 or 2 members.\n
+•The event will be conducted for 6 consecutive hours on the day of the symposium.\n
+•Participants must bring their own laptops.\n
+•Website or webpage should be designed on the common theme announced on the spot.\n
+•Entries must be submitted within the given time limit.\n
+•The participants with the highest number of votes will be announced the winners on Interrupt\'19\n
+
+</string>
+    <string name="e4con">Yuvaraj J - 8946083003\nShriram SG - 9952070437</string>
+
+    <string name="e5des">Love mysteries and solving puzzles? Do you also love coding? Look no further.
+        Awaken your inner Sherlock and demystify erred codes.
+        Debug programs and assemble jumbled up codes to earn pieces of a puzzle which will ultimately reveal the bigger picture!
+
+</string>
+    <string name="e5rul">
+•Team of two.\n
+•Internet and workstation will be provided.\n
+•Programming language used is C++.\n
+•Total score of each participant will be the cumulated points from all rounds.\n
+•In case of a tie, team which completed the rounds earlier will be announced the winner.\n
+
+
+</string>
+    <string name="e5con">Jyotsna - 9566964383\nAdarshya -7092738888</string>
+
+    <string name="e6des">Can you code efficiently? Is your code optimal? Test your skills here!
+        Code your way through this online event by buying keywords.
+        But beware! Spend your points wisely. Ready to code?
+        Then head over to Stack Market!Stack market is an offline problem solving event.
+        But with a twist! Play a fun game and earn cash. In the next round, buy keywords for your program using the cash earned.
+        The person with the highest cash remaining wins.
+
+</string>
+    <string name="e6rul">
+•Team of two.\n
+•Internet and workstation will be provided.\n
+•Internet surfing is not allowed.\n
+•Programming language used is C++.\n
+•Total score of each participant will be the cumulated points from all rounds.\n
+•In case of a tie, team which completed the rounds earlier will be announced the winner.\n
+
+</string>
+    <string name="e6con">Sujith - 6380592928\nSree Vishal - 7358499668</string>
+
+    <string name="e7des">Were you waiting for the full on nail biting coding event as always?
+        Well it\'s here and now you can put your hard acquired expertise in coding to action.
+        Interrupt19\'s Code connoisseur is an online mainstream coding event where you can code to your heart\'s content
+        and go from one level to the next.
+        Think and wrack your brains for this one!
+
+</string>
+    <string name="e7rul">
+•Individual participation only.\n
+•Participation will be live online.\n
+•Points will be awarded for each level cleared.\n
+•Total score of each participant will be the cumulated points from all rounds.\n
+•In case of a tie, participant who completed the rounds earlier will be announced the winner on Interrupt\'19.\n
+
+</string>
+    <string name="e7con"/>
+
+    <string name="e8des">Here\'s something fun yet challenging for all the cool nerds out there. Our trademark event
+        Interrupt challenge 2.0 is what you need to look out for! Find the hidden clue in each level to progress to the next.
+        It\'s engaging, it\’s fun and it\'ll help unleash the inner genius in you!
+
+</string>
+    <string name="e8rul">
+•Individual participation only.\n
+•Participation will be live online.\n
+•Participants cannot register more than once.\n
+•Originality of username at registration is appreciated.\n
+•In case of a tie, participant who completes earlier will be announced the winner on Interrupt\'19.\n
+
+</string>
+    <string name="e8con"/>
+
+    <string name="e9des">Modern problems require modern solutions.
+        Alt+Tab+Tech is an event for all the quick-witted innovators out there!
+        Think on your feet and switch between technologies and ideas to provide solutions to brain-wracking problems.
+        In the first round, test your team\'s connectivity through a fun game and win a trump card that will influence your performance in the second round.
+        Go on to provide solutions to the problem statements based on the domains you get in round robin basis.
+
+</string>
+    <string name="e9rul">
+•Team of 2\n
+•Solutions maybe pictorial or abstract or algorithm\n
+•Judgement criteria is based on presentation, innovation and technicality involved in the solution.\n
+•Jury\'s decision is final.\n
+
+</string>
+    <string name="e9con">Barath - 9884630716\nSeshai Hari - 6382118062</string>
+
 </resources>

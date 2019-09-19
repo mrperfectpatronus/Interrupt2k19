@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-//        btn4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(EventsMenu.this, events.class);
-//                startActivity(i);
-//            }
-//        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, About.class);
+                startActivity(i);
+            }
+        });
 
     }
 }

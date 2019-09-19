@@ -5,17 +5,18 @@
     android:id="@+id/bgrl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fontcolor"
     tools:context=".Events">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="30dp">
+        android:layout_margin="5dp">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/cont">
+            android:background="@color/bgcolor">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -36,12 +37,12 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:layout_below="@+id/EventIcon"
-                    android:fontFamily="@font/gothamu"
+                    android:fontFamily="@font/press_start_2p"
                     android:padding="5dp"
                     android:text="HELLO"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor2"
                     android:textAlignment="center"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:textStyle="italic" />
 
                 <TextView
@@ -50,12 +51,12 @@
                     android:id="@+id/descti"
                     android:layout_below="@+id/t1"
                     android:textSize="30sp"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor2"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
                     android:textStyle="italic"
-                    android:fontFamily="@font/gothamu"
+                    android:fontFamily="@font/source_code_pro_semibold"
                     android:textAlignment="center"
                     android:text="DESCRIPTION"/>
 
@@ -65,11 +66,12 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/descti"
                     android:textSize="30sp"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
                     android:textStyle="italic"
+                    android:fontFamily="@font/marvel"
                     android:textAlignment="center"
                     android:text=".\n.\n.\n.\n."/>
 
@@ -79,12 +81,12 @@
                     android:id="@+id/rulesti"
                     android:layout_below="@+id/desc"
                     android:textSize="30sp"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor2"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
                     android:textStyle="italic"
-                    android:fontFamily="@font/gothamu"
+                    android:fontFamily="@font/source_code_pro_semibold"
                     android:textAlignment="center"
                     android:text="RULES"/>
 
@@ -94,11 +96,12 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/rulesti"
                     android:textSize="30sp"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
                     android:textStyle="italic"
+                    android:fontFamily="@font/marvel"
                     android:textAlignment="center"
                     android:text=".\n.\n.\n.\n."/>
 
@@ -108,12 +111,12 @@
                     android:id="@+id/contti"
                     android:layout_below="@+id/rules"
                     android:textSize="30sp"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor2"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
                     android:textStyle="italic"
-                    android:fontFamily="@font/gothamu"
+                    android:fontFamily="@font/source_code_pro_semibold"
                     android:textAlignment="center"
                     android:text="CONTACT US"/>
 
@@ -123,12 +126,13 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/contti"
                     android:textSize="30sp"
-                    android:textColor="#ffffffee"
+                    android:textColor="@color/fontcolor"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true"
                     android:padding="10dp"
                     android:textStyle="italic"
                     android:textAlignment="center"
+                    android:fontFamily="@font/marvel"
                     android:text=".\n.\n.\n.\n."/>
 
 
@@ -136,8 +140,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/regbut"
-                    android:fontFamily="@font/gothamu"
+                    android:fontFamily="@font/source_code_pro_semibold"
                     android:text="REGISTER"
+                    android:padding="5dp"
+                    android:textColor="@color/fontcolor"
+                    android:background="@color/fontcolor1"
                     android:layout_margin="30dp"
                     android:textStyle="italic"
                     android:layout_centerHorizontal="true"

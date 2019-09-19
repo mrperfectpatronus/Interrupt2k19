@@ -5,4 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="mariobox">#b22222</color>
     <color name="mariotext">#f08080</color>
+    <color name="bgcolor">#214D72</color>
+    <color name="fontcolor">#9CEE8D</color>
+    <color name="fontcolor1">#0B749C</color>
+    <color name="fontcolor2">#1FBAC0</color>
 </resources>
