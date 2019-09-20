@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuidelinesActivity"
+    android:orientation="vertical"
+    android:background="@color/fontcolor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@color/bgcolor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUIDELINES"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="@font/press_start_2p"
+        android:layout_margin="10dp"
+        android:textColor="@color/fontcolor2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/guide"
+        android:fontFamily="@font/coder"
+        android:lineSpacingExtra="10dp"
+        android:textSize="30sp"
+        android:text="@string/guidelines"
+        android:textColor="@color/fontcolor"/>
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tran"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/transport"
+        android:background="@null" />
+    </LinearLayout>
+
+</ScrollView>

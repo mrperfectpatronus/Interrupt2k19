@@ -60,7 +60,7 @@
                         android:layout_centerHorizontal="true"
                         android:fontFamily="@font/coder"
                         android:text="PRESENTATION NATION"
-                        android:textColor="@color/fontcolor1" />
+                        android:textColor="@color/cardfont" />
 
 <!--                    <TextView-->
 <!--                        android:layout_width="wrap_content"-->
@@ -122,7 +122,7 @@
                             android:layout_centerHorizontal="true"
                             android:text="POSTER PRESENTATION"
                             android:fontFamily="@font/coder"
-                            android:textColor="@color/fontcolor1"/>
+                            android:textColor="@color/cardfont"/>
 
 <!--                        <TextView-->
 <!--                            android:layout_width="wrap_content"-->
@@ -184,7 +184,7 @@
                             android:layout_centerHorizontal="true"
                             android:text="MINDSPAR"
                             android:fontFamily="@font/coder"
-                            android:textColor="@color/fontcolor1"/>
+                            android:textColor="@color/cardfont"/>
 
 <!--                        <TextView-->
 <!--                            android:layout_width="wrap_content"-->
@@ -246,7 +246,7 @@
                             android:layout_below="@+id/img4"
                             android:layout_centerHorizontal="true"
                             android:text="GAME OF \u003cTAGS\u003e"
-                            android:textColor="@color/fontcolor1"/>
+                            android:textColor="@color/cardfont"/>
 
 <!--                        <TextView-->
 <!--                            android:layout_width="wrap_content"-->
@@ -308,7 +308,7 @@
                         android:layout_centerHorizontal="true"
                         android:text="NOW YOU C ME"
                         android:fontFamily="@font/coder"
-                        android:textColor="@color/fontcolor1"/>
+                        android:textColor="@color/cardfont"/>
 
 <!--                    <TextView-->
 <!--                        android:layout_width="wrap_content"-->
@@ -370,7 +370,7 @@
                         android:layout_centerHorizontal="true"
                         android:text="STACK MARKET"
                             android:fontFamily="@font/coder"
-                        android:textColor="@color/fontcolor1"/>
+                        android:textColor="@color/cardfont"/>
 
 <!--                        <TextView-->
 <!--                        android:layout_width="wrap_content"-->
@@ -432,7 +432,7 @@
                         android:layout_centerHorizontal="true"
                         android:text="CODE CONNOISSEUR"
                         android:fontFamily="@font/coder"
-                        android:textColor="@color/fontcolor1"/>
+                        android:textColor="@color/cardfont"/>
 
 <!--                    <TextView-->
 <!--                        android:layout_width="wrap_content"-->
@@ -494,7 +494,7 @@
                         android:layout_centerHorizontal="true"
                         android:fontFamily="@font/coder"
                         android:text="INTERRUPT CHALLENGE V2.0"
-                        android:textColor="@color/fontcolor1"/>
+                        android:textColor="@color/cardfont"/>
 
 <!--                    <TextView-->
 <!--                        android:layout_width="wrap_content"-->
@@ -556,7 +556,7 @@
                         android:layout_centerHorizontal="true"
                         android:text="ALT + TAB + TECH"
                         android:fontFamily="@font/coder"
-                        android:textColor="@color/fontcolor1"/>
+                        android:textColor="@color/cardfont"/>
 
 <!--                    <TextView-->
 <!--                        android:layout_width="wrap_content"-->
@@ -618,7 +618,7 @@
                         android:layout_centerHorizontal="true"
                         android:text="WIN-CODE-IUM-LEVIOSA"
                         android:fontFamily="@font/coder"
-                        android:textColor="@color/fontcolor1"/>
+                        android:textColor="@color/cardfont"/>
 
 <!--                    <TextView-->
 <!--                        android:layout_width="wrap_content"-->

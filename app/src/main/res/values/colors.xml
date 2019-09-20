@@ -11,4 +11,5 @@
     <color name="fontcolor2">#1FBAC0</color>
     <color name="fontcolor3">#61D3AB</color>
     <color name="card">#e1d998</color>
+    <color name="cardfont">#c5572E</color>
 </resources>

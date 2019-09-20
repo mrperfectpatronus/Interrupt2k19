@@ -142,7 +142,7 @@
 
 
 </string>
-    <string name="e7con"/>
+    <string name="e7con" />
 
     <string name="e8des">Here\'s something fun yet challenging for all the cool nerds out there. Our trademark event
         Interrupt challenge 2.0 is what you need to look out for! Find the hidden clue in each level to progress to the next.
@@ -158,7 +158,7 @@
 
 
 </string>
-    <string name="e8con"/>
+    <string name="e8con" />
 
     <string name="e9des">Modern problems require modern solutions.
         Alt+Tab+Tech is an event for all the quick-witted innovators out there!
@@ -191,5 +191,19 @@
 
 </string>
     <string name="e10con">Aravind Balakrishnan - 9940261858\nHaris - 8056214824</string>
+    <string name="guidelines">
+        1.The Symposium is on September 25th 2019.
+   \n\n 2.There is no registration fee.
+   \n\n3.Students must bring their ID Cards.
+   \n\n 4.There is no onspot registration.
+   \n\n 5.Online events are only for Students.
+   \n\n 6.Dress code:Body fit clothing, transparent or revealing outfits should be avoided.
+        \n\n
+        For girls,Salwar Kameez with Dupatta, Jeans with kurtis and stole is advisable.
+        Torn,faded Jeans and T-Shirts will not be allowed.
+   \n\n 7.Events commence at 8.30 AM and end at 3.00 AM.
+    \n\n8.SVCE College transport can be used. You can check the bus number and routes by clicking on the Transport tab below.
+
+    </string>
 
 </resources>
