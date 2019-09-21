@@ -96,7 +96,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 4:
                 t1.setText("GAME OF \u003cTAGS\u003e");
-                t2.setText("Offline");
+                t2.setText("Offline | Intra Department");
                 icon.setImageResource(R.drawable.tags);
                 desc.setText(R.string.e4des);
                 rules.setText(R.string.e4rul);
