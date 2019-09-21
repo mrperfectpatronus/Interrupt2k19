@@ -32,6 +32,9 @@
 \n\n•	The papers should be in IEEE format.
 \n\n•	Participants should bring their paper in PDF or Word format in pen drive.
 \n\n•	Jury\'s decision is final.
+        \n\n•	The PPT should contain 15 - 20 slides and not more than that.
+\n\n•	The final paper has to be submitted by 9PM on 23rd September 2019 to interrupt2k19@gmail.com.
+
 
 </string>
     <string name="e1con">Ajay Saba - 9488821895</string>
@@ -48,6 +51,7 @@
 \n\n•	The judgement criteria will be based on originality, creativity and clarity.
 \n\n•	Participants should bring the poster in pdf/jpg/png format in pen drive.
 \n\n•	Jury\'s decision will be final.
+        \n\n•	The idea abstract for the event has to be submitted by 9PM on 23rd September 2019 to interrupt2k19@gmail.com.
 
 
 </string>
@@ -135,6 +139,7 @@
 </string>
     <string name="e7rul">
 •	Individual participation only.
+        \n\n•	You will be automatically eliminated if you switch tabs during the event.
 \n\n•	Participation will be live online.
 \n\n•	Points will be awarded for each level cleared.
 \n\n•	Total score of each participant will be the cumulated points from all rounds.
@@ -142,7 +147,7 @@
 
 
 </string>
-    <string name="e7con" />
+    <string name="e7con">Sai Harshith - 683552605\nPalaniappan - 638348566</string>
 
     <string name="e8des">Here\'s something fun yet challenging for all the cool nerds out there. Our trademark event
         Interrupt challenge 2.0 is what you need to look out for! Find the hidden clue in each level to progress to the next.
@@ -158,7 +163,7 @@
 
 
 </string>
-    <string name="e8con" />
+    <string name="e8con">Soorya - 8940244871</string>
 
     <string name="e9des">Modern problems require modern solutions.
         Alt+Tab+Tech is an event for all the quick-witted innovators out there!

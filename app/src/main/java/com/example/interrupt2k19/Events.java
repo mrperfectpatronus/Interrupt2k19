@@ -16,7 +16,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Events extends AppCompatActivity implements View.OnClickListener {
 
-    TextView t1, desc, descti, rulesti, rules, con;
+    TextView t1, desc, descti, rulesti, rules, con, t2;
     Typeface typeface;
     RelativeLayout bgrl, fgrl;
     Button reg;
@@ -30,6 +30,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_events);
 
         t1 = (TextView) findViewById(R.id.t1);
+        t2 = (TextView)findViewById(R.id.t2);
         desc = (TextView) findViewById(R.id.desc);
         bgrl = (RelativeLayout) findViewById(R.id.bgrl);
         fgrl = (RelativeLayout) findViewById(R.id.fgrl);
@@ -45,6 +46,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
 
             case 1:
                 t1.setText("PRESENTATION NATION");
+                t2.setText("Offline");
                 icon.setImageResource(R.drawable.paper);
                 desc.setText(R.string.e1des);
                 rules.setText(R.string.e1rul);
@@ -78,6 +80,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 2:
                 t1.setText("POSTER COASTER");
+                t2.setText("Offline");
                 icon.setImageResource(R.drawable.postercoaster);
                 desc.setText(R.string.e2des);
                 rules.setText(R.string.e2rul);
@@ -85,6 +88,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 3:
                 t1.setText("MINDSPAR");
+                t2.setText("Offline");
                 icon.setImageResource(R.drawable.mindspark);
                 desc.setText(R.string.e3des);
                 rules.setText(R.string.e3rul);
@@ -92,6 +96,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 4:
                 t1.setText("GAME OF \u003cTAGS\u003e");
+                t2.setText("Offline");
                 icon.setImageResource(R.drawable.tags);
                 desc.setText(R.string.e4des);
                 rules.setText(R.string.e4rul);
@@ -99,6 +104,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 5:
                 t1.setText("NOW YOU C ME");
+                t2.setText("Offline | Intra Department");
                 icon.setImageResource(R.drawable.nowucme);
                 desc.setText(R.string.e5des);
                 rules.setText(R.string.e5rul);
@@ -106,6 +112,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 6:
                 t1.setText("STACK MARKET");
+                t2.setText("Offline");
                 icon.setImageResource(R.drawable.stackmarket);
                 desc.setText(R.string.e6des);
                 rules.setText(R.string.e6rul);
@@ -113,6 +120,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 7:
                 t1.setText("CODE CONNOISSEUR");
+                t2.setText("Online");
                 icon.setImageResource(R.drawable.codecon);
                 desc.setText(R.string.e7des);
                 rules.setText(R.string.e7rul);
@@ -120,6 +128,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 8:
                 t1.setText("INTERRUPT CHALLENGE V2.0");
+                t2.setText("Online");
                 icon.setImageResource(R.drawable.interrupt);
                 desc.setText(R.string.e8des);
                 rules.setText(R.string.e8rul);
@@ -127,6 +136,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 9:
                 t1.setText("ALT + TAB + TECH");
+                t2.setText("Offline");
                 icon.setImageResource(R.drawable.alttab);
                 desc.setText(R.string.e9des);
                 rules.setText(R.string.e9rul);
@@ -134,6 +144,7 @@ public class Events extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 10:
                 t1.setText("WIN-CODE-IUM-LEVIOSA");
+                t2.setText("Offline | Intra Department");
                 icon.setImageResource(R.drawable.codewin);
                 desc.setText(R.string.e10des);
                 rules.setText(R.string.e10rul);

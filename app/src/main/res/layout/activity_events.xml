@@ -45,10 +45,25 @@
                     android:textSize="20sp" />
 
                 <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t1"
+                    android:textSize="30sp"
+                    android:textColor="@color/fontcolor"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:fontFamily="@font/coder"
+                    android:gravity="center"
+                    android:lineSpacingExtra="10dp"
+                    android:text="hello" />
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/descti"
-                    android:layout_below="@+id/t1"
+                    android:layout_below="@+id/t2"
                     android:textSize="33sp"
                     android:textColor="@color/cardfont"
                     android:layout_marginTop="20dp"
